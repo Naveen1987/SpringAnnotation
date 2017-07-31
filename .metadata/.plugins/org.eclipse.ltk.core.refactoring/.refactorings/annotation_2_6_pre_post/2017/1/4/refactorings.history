@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Point.java&apos; to &apos;annotation_2_6_pre_post/src/main/java/com.model&apos;&#x0D;&#x0A;- Original project: &apos;annotation_2_6_pre_post&apos;&#x0D;&#x0A;- Destination element: &apos;annotation_2_6_pre_post/src/main/java/com.model&apos;&#x0D;&#x0A;- Original element: &apos;com.model.Point.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;com.model" element1="/src\/main\/java&lt;com.model{Point.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1485154325497" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+package com.demo.r_and_d;
+
+/**
+ * Hello world!
+ *
+ */
+class A{
+	public void show(){
+		System.out.println("I am A");
+	}
+}
+class B extends A{
+	public void disp(){
+		
+	}
+}
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

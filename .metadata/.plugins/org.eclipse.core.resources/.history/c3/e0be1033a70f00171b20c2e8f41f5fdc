@@ -1,0 +1,21 @@
+import com.mongodb.DB;
+4    import com.mongodb.Mongo;
+5    import java.net.UnknownHostException;
+6    
+7    public class MongoService {
+8        private final Mongo mongo;
+9        private final DB db;
+10   
+11       public MongoService(final String dbName) throws UnknownHostException {
+12           mongo = new Mongo(); // MongoDB server (localhost:27017) 
+13           db = mongo.getDB(dbName); // Connect to database
+14       }
+15   
+16       public Mongo getMongo() {
+17           return mongo;
+18       }
+19   
+20       public DB getDb() {
+21           return db;
+22       }
+23   }

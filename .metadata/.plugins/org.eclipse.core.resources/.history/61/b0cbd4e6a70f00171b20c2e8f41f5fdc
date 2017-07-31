@@ -1,0 +1,25 @@
+package com.demo.mongodbdemo;
+import com.mongodb.DB;
+import com.mongodb.Mongo;
+import java.net.UnknownHostException;
+
+import org.springframework.stereotype.Service;
+    
+@Service
+    public class MongoService {
+        private final Mongo mongo;
+        private final DB db;
+   
+       public MongoService(final String dbName) throws UnknownHostException {
+           mongo = new Mongo(); // MongoDB server (localhost:27017) 
+           db = mongo.getDB(dbName); // Connect to database
+       }
+   
+       public Mongo getMongo() {
+           return mongo;
+       }
+   
+       public DB getDb() {
+           return db;
+      }
+   }

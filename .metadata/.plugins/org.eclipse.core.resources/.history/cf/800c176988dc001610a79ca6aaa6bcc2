@@ -1,0 +1,12 @@
+package com.testing;
+
+public class Testing {
+public static void main(String ag[]){
+	
+}
+public int show(int x){
+	if(x==1){x=0;}
+	else{x=1;}
+	return x;
+}
+}

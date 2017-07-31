@@ -1,0 +1,6 @@
+1485153295413	Rename resource 'annotation_2_5_pre_post'
+1485153316386	Delete resource 'annotation_2_6_pre_post/src/main/java/datafile.properties'
+1485162169407	Delete resource 'annotation_2_7(@Required)/src/main/java/datafile.properties'
+1485176526487	Rename resource 'annotation_2_8_1(Aspect)'
+1485176661245	Delete resource 'annotation_2_8_1(Aspect_with_pointcut)'
+1485495652023	Rename resource 'annotation_2_8_3(Declareparent)'

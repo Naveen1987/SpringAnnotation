@@ -1,0 +1,5 @@
+package com.demo.mongodbdemo;
+
+public class ConfigClass {
+
+}
