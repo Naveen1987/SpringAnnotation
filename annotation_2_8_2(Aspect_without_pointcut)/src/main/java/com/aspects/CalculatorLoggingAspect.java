@@ -37,7 +37,7 @@ public void go_6(){}
 //@Before("go_5()&&go_2()")
 //@Before("go_6()&&go_2()")
 //@Before("go_3()&&go_4()")
-//@Before("go_4()&&go_5()")
+ //@Before("go_4()&&go_2()")
 //@Before("go_4()||go_3()||go_2()")
 public void logBefore() {
 System.out.println("The method logBefore begins");

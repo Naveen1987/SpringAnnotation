@@ -9,8 +9,11 @@ import com.model.Artist;
 @EnableSpringConfigured
 public class App {
     public static void main( String[] args )    {
-//    	AnnotationConfigApplicationContext context= new AnnotationConfigApplicationContext(ConfigurationClass.class);
-    	Artist artist = new Artist();//(Artist)context.getBean(Artist.class);
+    	
+    	AnnotationConfigApplicationContext context= new AnnotationConfigApplicationContext();
+    	context.scan("com.bean");
+    	context.refresh();
+    	Artist artist = (Artist)context.getBean(Artist.class);
     	artist.save();
     	 }
     }

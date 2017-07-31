@@ -17,7 +17,7 @@ public class CalculatorLoggingAspect {
 
 //@Pointcut("within(com.model.ArithmeticCalculator+)")
 //public void go_1(){}
-
+	
 @Pointcut("within(com.model.*)")
 public void go_2(){}
 
