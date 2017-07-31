@@ -6346,3 +6346,7 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2017-03-23 14:48:45,426 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Kfas Naveen Data\eclipse-jee-mars-R-win32-x86_64_2\Workspaces\Spring_R&D_Annotation\mongodbdemo\src\main\resources
 2017-03-23 14:48:45,427 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-03-23 14:48:45,427 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Kfas Naveen Data\eclipse-jee-mars-R-win32-x86_64_2\Workspaces\Spring_R&D_Annotation\mongodbdemo\src\test\resources
+2017-07-31 11:51:11,731 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:51:11,781 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-31 11:51:11,784 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:51:11,785 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Kfas Naveen Data\eclipse-jee-mars-R-win32-x86_64_2\Workspaces\Spring_R&D_Annotation\FirstMVC\src\test\resources

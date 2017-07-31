@@ -1,5 +1,4 @@
-/Servers
-/RemoteSystemsTempFiles
-/.recommenders
-/.metadata
-/.git
+Servers/
+RemoteSystemsTempFiles/
+.recommenders/
+.metadata/
